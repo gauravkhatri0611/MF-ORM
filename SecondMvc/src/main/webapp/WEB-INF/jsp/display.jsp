@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" isELIgnored="false"%>
-	<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-	
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +9,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello World! welcome ${msg}</h2> 
+	<h1>User Name you entered: ${name }</h1>
+	<h1>User Password you entered: ${pass }</h1>
+	<h1>Message is: ${message }</h1>
 </body>
 </html>
